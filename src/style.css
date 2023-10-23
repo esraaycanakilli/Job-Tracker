@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #242424;
+  color: white;
+  font-family: "poppins";
+  font-weight: 400;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+}
+header div {
+  display: flex;
+  gap: 20px;
+}
+header div a {
+  font-size: 19px;
+  color: rgb(230, 68, 165);
+  text-decoration: none;
+}
+header div .active {
+  text-shadow: 0 0 20px pink;
+}
+
+.job-count {
+  margin-bottom: 50px;
+}
+
+.list-page {
+  padding: 40px;
+}
+
+.list-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 50px;
+}
+
+.card {
+  background: gray;
+  border-radius: 10px;
+  padding: 20px;
+}
+.card .head {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.card .head .letter {
+  height: 60px;
+  width: 60px;
+  background: purple;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  font-size: 30px;
+}
+.card .head .info {
+  font-size: 20px;
+}
+.card .body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 30px;
+}
+.card .body .field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card .body .field img {
+  width: 30px;
+}
+.card .body .status span {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.card .body .status .interview {
+  background: green;
+}
+.card .body .status .rejected {
+  background: red;
+}
+.card .body .status .pending {
+  background: rgb(197, 197, 0);
+}
+.card .body .status .default {
+  background: gray;
+}
+
+.add-sec, .filter-sec {
+  box-shadow: 0 22px 70px 4px rgba(128, 0, 128, 0.735);
+  max-width: 700px;
+  margin: 100px auto;
+  padding: 25px;
+}
+
+form {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+}
+form div input,
+form div select {
+  padding: 10px 15px;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+form div:last-child {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+form button {
+  padding: 10px 40px;
+  background: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 300ms;
+}
+form button:hover {
+  scale: 0.96;
+  box-shadow: 0 0 30px rgba(128, 0, 128, 0.798);
+}
+
+.filter-sec {
+  max-width: 1000px;
+  margin-top: 10px;
+}
+.filter-sec form {
+  margin-top: 20px;
+}
+.filter-sec .button-area {
+  align-items: start;
+}/*# sourceMappingURL=style.css.map */
