@@ -1,6 +1,6 @@
 # Kütüphaneler
 
---react-router-dom
+--  react-router-dom
 --  react-toastify
 --  sass
 --  axios
@@ -9,3 +9,8 @@
 --  react-redux
 --  uuid
 # Job-Tracker
+
+<h2>Ekran Gifi</h2>
+
+![](Animation.gif)
+

@@ -107,6 +107,33 @@
       "type": "Uzaktan",
       "id": "b10c5fa5-29a0-4dbd-938e-41a734f062bb",
       "date": "03.10.2023"
+    },
+    {
+      "position": "Deneme",
+      "company": "Deneme",
+      "location": "Ankara",
+      "status": "Reddedildi",
+      "type": "Staj",
+      "id": "cf569165-5eda-4375-84d0-b2afacc84051",
+      "date": "24.10.2023"
+    },
+    {
+      "position": "Deneme2",
+      "company": "aksa",
+      "location": "Ankara",
+      "status": "Mülakat",
+      "type": "Staj",
+      "id": "b1477fea-23d8-463c-884c-133cee707670",
+      "date": "24.10.2023"
+    },
+    {
+      "position": "Deneme3",
+      "company": "Deneme3",
+      "location": "İstanbul",
+      "status": "Mülakat",
+      "type": "Uzaktan",
+      "id": "c5d4ebf2-a932-49c0-bd75-ad16610e03f0",
+      "date": "24.10.2023"
     }
   ]
 }
